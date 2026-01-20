@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Azure File Portal</title>
+    <style>
+        body { font-family: Arial; margin: 40px; }
+        .container { max-width: 600px; margin: auto; }
+        h1 { color: #0078d4; }
+        input, button { padding: 10px; margin: 10px 0; }
+        button { background: #0078d4; color: white; border: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📁 Azure File Portal</h1>
+        <p>Upload files to Azure Blob Storage</p>
+        
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Upload File</button>
+        </form>
+        
+        <p><small>Files will be stored in Azure Blob Storage</small></p>
+    </div>
+</body>
+</html>

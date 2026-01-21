@@ -2,3 +2,5 @@ Flask==2.3.3
 
 azure-storage-blob==12.17.0
 gunicorn==21.2.0
+six==1.16.0
+
